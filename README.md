@@ -1,7 +1,9 @@
 # topcom
 Dockerfile for arm64 and amd64 builds of Topcom-0.17.8
 
-1. Pull the image:
+First, please ensure that the docker engine is running.
+
+1. Pull the image, as per the processor architecture (arm64 or amd64) of your device:
 
   `docker pull sudeepan/topcom:arm64`
   or,
